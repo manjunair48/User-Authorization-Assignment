@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-31T20:26:53 IST" name="Command line suite" finished-at="2023-03-31T20:27:16 IST" duration-ms="22813">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-31T20:26:53 IST" name="Command line test" finished-at="2023-03-31T20:27:16 IST" duration-ms="22813">
+      <class name="cucumberOptions.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:53 IST" name="setUpClass" finished-at="2023-03-31T20:26:54 IST" duration-ms="1023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@766a4535]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="20725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience and authorization purpose"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new user to a Authorization system"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="20852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation by sending username as Blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a system administrator I want to disallow users with empty username, name or password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="20852" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation by sending fullName as Blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a system administrator I want to disallow users with empty username, name or password"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[The user detail added to authorization system.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: The user detail added to authorization system.
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertFalse(Assert.java:34)
+at stepDefinition.EmptyUserValidation.userdetails_should_not_added_to_the_authorization_system(EmptyUserValidation.java:39)
+at ✽.userdetails should not added to the authorization system(file:///C:/Users/manju/eclipse-workspace/test-authorization-system/src/test/java/features/emptyUserValidation.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="20848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation by sending Password as Blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a system administrator I want to disallow users with empty username, name or password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="21115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience and authorization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to a Authorization system"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="20653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience and authorization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to a Authorization system"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="20707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience and authorization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to a Authorization system"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="21100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience and authorization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to a Authorization system"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="21023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search experience and authorization purpose"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new user to a Authorization system"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:26:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-31T20:27:15 IST" duration-ms="21054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation by sending username as Blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a system administrator I want to disallow users with empty username, name or password"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@48fa0f47]" started-at="2023-03-31T20:27:15 IST" name="tearDownClass" finished-at="2023-03-31T20:27:16 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestNGTestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

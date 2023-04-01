@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.838 sec <<< FAILURE!
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 20.856 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: The user detail added to authorization system.
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at stepDefinition.EmptyUserValidation.userdetails_should_not_added_to_the_authorization_system(EmptyUserValidation.java:39)
+	at ✽.userdetails should not added to the authorization system(file:///C:/Users/manju/eclipse-workspace/test-authorization-system/src/test/java/features/emptyUserValidation.feature:10)
+
